@@ -1,0 +1,31 @@
+//
+//  main.c
+//  inputing a string and finding the number of characters.
+//
+//  Created by JASHANPREET SINGH on 10/04/20.
+//  Copyright © 2020 JASHANPREET SINGH. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main(){
+    
+    char str[50];
+    char ch;
+    int i,count;
+    printf("Enter a string :");
+    gets(str);
+    i= count=0;
+    while (str[i]!='\0'){
+        
+        ch=str[i];
+   
+   {
+       count++;
+       
+   }
+        i++;
+    }
+    printf("string  count is=%d",count);
+    
+    return 0;}
